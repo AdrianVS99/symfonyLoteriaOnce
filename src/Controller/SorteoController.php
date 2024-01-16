@@ -56,6 +56,7 @@ class SorteoController extends AbstractController
                 'premio' => $sorteo->getPremio(),
                 'numero_premiado' => $sorteo->getNumero(),
                 'fecha' => $sorteo->getFecha(),
+                'mensaje' => $mensaje,
 
             ]);
 
