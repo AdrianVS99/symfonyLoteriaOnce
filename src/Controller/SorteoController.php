@@ -31,6 +31,8 @@ class SorteoController extends AbstractController
 
         $form->handleRequest($request);
 
+        $mensaje = "Hola esto es un mensaje de prueba";
+
         if ($form->isSubmitted() && $form->isValid()) {
 
             // Obtenemos los datos introducidos en el formulario
